@@ -1,0 +1,35 @@
+* {
+	margin: 0px;
+	padding: 0px;}
+
+a {
+	text-decoration: none;}	
+	
+
+// MASTER STYLES
+
+@import "fonts";
+@import "skeleton";
+
+
+// PAGE STYLES
+
+@import "home";
+@import "about";
+@import "features";
+
+
+// ELEMENT STYLES
+
+@import "header";
+@import "footer";
+@import "elements";
+
+
+// ADDITIONAL STYLES
+
+::selection {
+	background: #fbae16; /* Safari */}
+	
+::-moz-selection {
+	background: #fbae16; /* Firefox */}

@@ -1,0 +1,38 @@
+/* #fonts-Face
+================================================== */
+
+@font-face {
+font-family: Locator;
+		src: url('/fonts/Locator-Regular.otf');
+		src: url('/fonts/Locator-Regular.ttf'), format('truetype');
+		src: url('/fonts/Locator-Regular.eot');
+		src: url('/fonts/Locator-Regular.woff');
+	}
+
+
+@font-face {
+font-family: Locator-Light;
+		src: url('/fonts/Locator-Light.otf');
+		src: url('/fonts/Locator-Light.ttf'), format('truetype');
+		src: url('/fonts/Locator-Light.eot');
+		src: url('/fonts/Locator-Light.woff');
+     	
+	}
+	
+@font-face {
+font-family: Locator-Bold;
+		src: url('/fonts/Locator-Bold.otf');
+		src: url('/fonts/Locator-Bold.ttf'), format('truetype');
+		src: url('/fonts/Locator-Bold.eot');
+		src: url('/fonts/Locator-Bold.woff');
+     
+	}
+
+@font-face {
+font-family: Locator-Light-Italic;
+		src: url('/fonts/Locator-LightItalic.otf');
+		src: url('/fonts/Locator-LightItalic.ttf'),format('truetype');
+     	src: url('/fonts/Locator-Light-Italic.eot');
+		src: url('/fonts/Locator-Light-Italic.woff');
+	}
+	

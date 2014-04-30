@@ -1,0 +1,158 @@
+$orange: #FBAE16;
+$tan: #fbf5ed;
+$dark-gray: #363636;
+
+#about_box {
+	background-image: url('/images/about-bg.jpg');	
+	background-repeat: repeat-y;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 440px;
+	h1 {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		padding-top: 210px;
+		font-family: 'Locator-Light', Helvetica, sans-serif;
+		color: white;
+		font-weight: 100;
+		letter-spacing: 12px;
+		opacity: 0.9;
+		text-align: center;
+		font-size: 90px;
+	}
+}
+
+#about-section {
+	margin-top: 20px;
+	font-family: 'Locator-Light', Helvetica, sans-serif;
+	h3 {
+		color: #363636;
+		padding-top: 50px;
+		padding-bottom: 0px;
+		font-family: 'Locator-Light', Helvetica, sans-serif;
+		font-weight: 100;
+		text-align: center;
+		margin: 0 auto;
+		font-size: 30px;
+		width: 80%;
+		line-height: 46px;
+		opacity: 0.9;
+	}
+
+}
+
+#story-box {
+	width: 100%;
+	margin: 0 auto;
+	line-height: 22px;
+	padding-bottom: 40px;
+	margin-top: 30px;}
+	
+.story-text {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 28px;
+}	
+
+#capital_letter {
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+#image-divider {
+	width: 100%;
+	img {
+		width: 100%;
+	}
+}
+	
+
+//contact section 
+
+	
+#contact-section {
+	font-family: 'Locator-Light', Helvetica, sans-serif;	
+	margin-top: -6px;
+	color: $dark-gray;
+	padding-top: 20px;
+	padding-bottom: 90px;
+	text-align: center;
+	
+	h3 {
+		margin-top: 40px;
+		padding-bottom: 20px;
+		font-size: 24px;
+		text-align: center;
+	}
+	
+	a {
+		text-decoration: underline;
+		color: #707070;
+	}
+	
+	h4 {
+		font-size: 18px;
+		padding-bottom: 20px;
+	}
+	
+	p {
+		line-height: 26px;
+	}
+	
+	h6 {
+		visibility: hidden;
+	}
+	
+	img {
+		margin-top: 10px;
+	}
+}
+
+	
+/* All Mobile Sizes (devices and browser) */
+  @media only screen and (max-width: 767px) {
+
+
+#about_box {
+	background-image: url('/images/about-bg.JPG');	
+	background-repeat: repeat-y;
+	background-size: cover;
+	width: 100%;
+	height: 340px;
+	h1 {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 180px;
+	font-family: 'Locator-Light', Helvetica, sans-serif;
+	color: white;
+	font-weight: 100;
+	letter-spacing: 6px;
+	opacity: 0.9;
+	text-align: center;
+	font-size: 40px;}}	  
+
+
+#about-section {
+	margin-top: 20px;
+	font-family: 'Locator-Light', Helvetica, sans-serif;
+	h3 {
+	color: #363636;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	font-family: 'Locator-Light', Helvetica, sans-serif;
+	font-weight: 100;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+	width: 100%;
+	line-height: 46px;
+	opacity: 0.9;}}
+
+
+	  
+	 
+  } //end mobile style	

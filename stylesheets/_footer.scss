@@ -1,0 +1,83 @@
+/* FOOTER
+================================================== */
+
+$gray: #707070;
+$dark-gray: #363636;
+
+
+/* --- Footer Box --- */
+
+footer {
+	background-color: $dark-gray;
+
+	ul {
+		margin: 0 auto;	
+		text-align: center;
+		float: none;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		width: 90%;
+		background-color: $dark-gray;
+	}
+
+	li {	
+		list-style: none;
+		text-align: center;
+		color: white;
+		margin-left: 5%;
+		margin-right: 5%;
+		text-transform: uppercase;
+		display: inline-block;
+		vertical-align: super;
+		font-family: 'Locator-Light', Helvetica, sans-serif;
+		font-size: 14px;
+	}
+
+	a {	
+		text-decoration: none;
+		color: white;
+		opacity: 0.5;
+		
+		-webkit-transition: all .1s ease-in-out;
+		-moz-transition: all .1s ease-in-out;
+		-o-transition: all .1s ease-in-out;
+		transition: all .1s ease-in-out;
+	}
+}
+
+.footer_list a:hover{	
+	opacity: 1.0;}
+	
+#footer-icon { 
+	img {
+		vertical-align: sub;
+		margin-right: 10px;
+		margin-left: 10px;
+		width: 40px;
+		height: 40px;
+	}		
+	a {
+	opacity: 1.0;
+	}
+}
+	
+/* --------------- All Mobile Sizes (devices and browser) ---------------- */
+  
+@media only screen and (max-width: 900px) {
+
+footer {
+	background-color: $dark-gray;
+	display: block;
+	height: 140px;
+	
+	li {
+		display: none;
+	}
+
+
+}
+	
+
+
+} // end mobile styles
+
