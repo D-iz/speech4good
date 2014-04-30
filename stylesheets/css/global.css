@@ -656,9 +656,6 @@ a {
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
   #about_box {
-    background-image: url("/images/about-bg.JPG");
-    background-repeat: repeat-y;
-    background-size: cover;
     background-attachment: scroll;
     width: 100%;
     height: 340px; }
@@ -931,7 +928,7 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
-    margin-left: 90%;
+    margin-left: 87%;
     width: 38px;
     height: 38px;
     cursor: pointer; } }
@@ -945,7 +942,7 @@ footer {
     text-align: center;
     float: none;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     width: 90%;
     background-color: #363636; }
   footer li {
