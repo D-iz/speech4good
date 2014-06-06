@@ -1,5 +1,5 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en"> 
 <head>
 	<!-- Basic Page Needs
   ================================================== -->
@@ -16,43 +16,15 @@
   ================================================== -->
 	<link rel="stylesheet" href="/stylesheets/css/global.css">
 	
+
 	<!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="/images/favicon.ico">
 	
-		<!-- JavaScript Includes
-  ================================================== -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="/scripts/script.js"></script>
-	
-	<script>
-	
-	
-$(document).load($(window).bind("resize load", listenWidth));
-			
-	function listenWidth() {
-				
-		if($(window).width() < 900) {
-					
-			$(".image-dos").remove().insertBefore($(".text-dos"));
-				
-		}
-				
-		else {
-					
-			$(".image-dos").remove().insertAfter($(".text-dos"));
-						
-		}
-	}
-	
-	
-	</script>
-
-	
 </head>
 
 <body>
-
+	
 	<header>
 	
 			<div id="header_container">
@@ -61,121 +33,42 @@ $(document).load($(window).bind("resize load", listenWidth));
 		
 					<ul id="nav">
 					
-						<a href="/demo"><li>Demo</li></a>
+						<a id="active" href="/demo"><li>Demo</li></a>
 								
-						<a id="active" href="/features"><li>Features</li></a>
+						<a href="/features"><li>Features</li></a>
 					
 						<a href="/about"><li>About</li></a>
 					
 						<a href="http://appstore.com/speech4good"><li>Download</li></a>
 				
-				</ul><!--end nav-->
+					</ul><!--end nav-->
 				
 				<div id="menu"></div>
 									
 		</div><!--end header_container-->
 		
 	</header><!--end header-->
-	
-	
-	<div id="features_box">
-	
-			<h1>FEATURES</h1>
+
+<!--ABOUT --> 
 		
-	</div><!-- end about-box -->
+	<div id="color_box">
+	
+	</div><!-- end color-box -->
 		
-		<div id="features-section">
+		<div id="video-section">
 			
 			<div class="container">	
 	
-				<h3>How does Speech4Good help those with speech disorders?</h3>
+				<div class="twelve columns">				
+												
+					<iframe src="//fast.wistia.net/embed/iframe/ws7erlxwf0?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed eleven columns offset-by-two" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="800" height="450"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>		
+											
+				</div><!-- end twelve -->
 				
-		</div><!-- end container -->
-	
-	</div><!-- end features-section -->	
+			</div><!--end container -->	
+										
+	</div><!--end video-section-->	
 
-	<!--Features Highlight --> 
-
-	<div class="features-highlight">
-	
-		<div class="container"> 
-		
-			<div class="sixteen columns">
-			
-				<div class="four columns alpha offset-by-one"><img src="/images/gifs/daf.gif"></div>
-		
-				<div class="eight columns omega offset-by-two">
-				
-					<h2>Delayed Auditory Feedback</h2>
-				
-					<p>Speak smoothly with delayed auditory feedback (DAF), a chorus effect that has been proven to enhance fluency for speech disorders like stuttering.</p>
-					
-					<ul>
-						
-						<li>Adjustable delay levels (20-300 milliseconds)</li>
-					
-						<li>Connect wirelessly via Bluetooth or AirPlay</li>
-						
-					</ul>
-					
-					<h2>Digital Speech Graph</h2>
-				
-					<p>View variations in your voice in realtime. By instantly charting your speech across a digital oscilloscope, Speech4Good offers clear visual cues to heighten awareness of disfluencies or under-articulation.</p>
-					
-					<ul>
-						
-						<li>Switch "OFF" or tap the graph to freezeframe</li>
-					
-					</ul>	
-					
-				</div><!-- end text columns -->
-				
-			</div><!-- end twelve -->
-			
-		</div><!-- end container -->
-		
-	</div><!-- end features-highlight -->	
-	
-	<div class="features-highlight">
-	
-		<div class="container"> 	
-						
-			<div class="sixteen columns">
-							
-				<div class="eight columns omega offset-by-one text-dos">
-				
-					<h2>Record audio*</h2>
-				
-					<p>Record your practice session for up to ten minutes while using DAF and speech graph. Type session notes and save your practice to an organized library for easy data collection.</p>
-					
-					<ul>
-						
-						<li>Recording in high-quality, .m4a audio file</li>
-						
-					</ul>			
-					
-					
-					
-					<h2>Email your recordings*</h2>
-				
-					<p>Share your recorded therapy sessions via email. Speech4Good makes it easy to export your recordings for review at anytime.</p>
-					
-					<p><em></br>*Available as one in-app purchase</em></p>	
-							
-				</div><!-- end text columns -->
-				
-				<div class="four columns alpha offset-by-two image-dos"><img src="/images/gifs/share.gif"></div>
-				
-				</div><!-- end twelve -->	
-				
-		</div><!-- end container -->
-		
-	</div><!-- end speech graph -->	
-	
-<!--DIVIDER -->
-	
-	<div class="thin-divider"></div>
-		
 <!--DOWNLOAD --> 
 	
 	<div class="download-box">
@@ -190,8 +83,9 @@ $(document).load($(window).bind("resize load", listenWidth));
 			
 	</div><!-- end download-box -->	
 
+
 <!--FOOTER --> 
-				
+			
 	<footer>
 
 		<div class="container">
@@ -212,8 +106,14 @@ $(document).load($(window).bind("resize load", listenWidth));
 								
 		</div><!-- end container -->
 		
-	</footer><!--end footer-->
-	
+	</footer><!--end footer-->	
+
+	<!-- JavaScript Includes
+  ================================================== -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="/scripts/script.js"></script>
+	<script src="scripts/tweetAction.js"></script>
+
 	<!-- Google Analytics
   ================================================== -->
 	<script>

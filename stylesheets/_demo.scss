@@ -1,0 +1,58 @@
+$orange: #FBAE16;
+$tan: #fbf5ed;
+$dark-gray: #363636;
+
+#color_box {
+	background-color: $orange;
+	background-image: url('/images/bg-demo.png');
+	width: 100%;
+	}
+
+/* All Mobile Sizes (devices and browser) */
+  @media only screen and (min-width: 767px) {
+	 
+  #color_box {
+		height: 420px;	
+		
+	}
+
+  #video-section {
+		margin-top: -240px;	
+	}
+
+} // end WIDE 
+
+	
+/* All Mobile Sizes (devices and browser) */
+  @media only screen and (min-width: 461px) and (max-width: 766px) {
+  
+  #color_box {
+		height: 320px;
+			
+	}
+
+  #video-section {
+		margin-top: -180px;	
+	}
+
+} // end MID
+
+
+/* All Mobile Sizes (devices and browser) */
+  @media only screen and (max-width: 460px) {
+  
+  #color_box {
+		height: 180px;	
+		
+	}
+
+  #video-section {
+		margin-top: -70px;	
+	}
+
+} // end TINY
+
+
+
+
+

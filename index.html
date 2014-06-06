@@ -23,23 +23,7 @@
 		<!-- JavaScript Includes
   ================================================== -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="scripts/script.js"></script>
-	
-	<script>
-	
-		$(document).ready(function() {
-			
-			$("#left").hover(function() {
-				
-				$("body").css("color","red");
-				
-			});
-	
-			
-		});
-		
-	</script>
-	
+	<script src="scripts/script.js"></script>	
 	
 </head>
 <body>
@@ -50,6 +34,8 @@
 				<a href="/"><div id="logo"></div></a>
 		
 				<ul id="nav">
+				
+						<a href="/demo"><li>Demo</li></a>
 								
 						<a href="/features"><li>Features</li></a>
 					
@@ -64,13 +50,7 @@
 		</div><!--end header_container-->
 		
 	</header><!--end header-->
-	
-	<script type="text/javascript">
-    mixpanel.track_links("#nav a", "click nav link", {
-        "referrer": document.referrer
-    });
-</script>
-	
+		
 <!--MAIN SECTION --> 
 	
 	<div id="main_box">
@@ -103,7 +83,11 @@
 							 
 			 <a href="//fast.wistia.net/embed/iframe/92zybzmw06?popover=true" class="video wistia-popover[height=478,playerColor=fbae16,width=800]">
 			 
-			 	<h4>Watch the video</h4>
+			 	<div id="watch-link">
+			 	
+			 		<div id="watch-video"></div><h4>Watch the video</h4>
+			 		
+			 	</div><!--end watch link -->	
 			 	
 			 </a><script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
 		
@@ -123,7 +107,7 @@
 		
 			<div class="sixteen columns">
 			
-				<div class="one columns arrow wide-arrows offset-by-one" id="left""><img src="/images/arrow-left.png"></div>
+<!-- 				<div class="one columns arrow wide-arrows offset-by-one" id="left""><img src="/images/arrow-left.png"></div> -->
 				
 				<div id="quote-uno">
 		
@@ -154,27 +138,28 @@
 					
 				</div><!-- end quote-dos-->	
 	
-				<div class="one columns arrow offset-by-one wide-arrows" id="right"><img src="/images/arrow-right.png"></div>
+<!-- 				<div class="one columns arrow offset-by-one wide-arrows" id="right"><img src="/images/arrow-right.png"></div> -->
 			
 			</div><!--end sixteen columns-->
 												
 			<div id="slider-box">
 				
-				<div class="mobile-arrows">
-			
+<!-- 			<div class="mobile-arrows">
+ 			
 					<div class="arrow" id="left"><img src="/images/arrow-left.png"></div>
 				
 					<div class="arrow" id="right"><img src="/images/arrow-right.png"></div>
 					
 				</div><!--end mobile arrows -->
 				
-				<div class="carousel">
+				<!--
+<div class="carousel">
 					
 					<div class="dot active" id="dot-uno"></div>
 					
 					<div class="dot" id="dot-dos"></div>
 					
-				</div><!-- end carousel -->		
+				</div><!-- end carousel -->	
 					
 			</div><!-- end slider-box -->
 							
@@ -236,14 +221,5 @@
 		  ga('send', 'pageview');
 	</script><!-- end Google Analytics -->
 	
-		<!-- Mixpanel Analytics
-  ================================================== -->
-  
-	<script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
-for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
-mixpanel.init("db6f02c54bae388eed7e2f44b00f9208");
-
-	</script><!-- end Mixpanel -->
-
 </body>
 </html>

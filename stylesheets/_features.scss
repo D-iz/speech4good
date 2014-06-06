@@ -31,7 +31,7 @@ $gray: #707070;
 		font-family: 'Locator-Light', Helvetica, sans-serif;
 		
 		h3 {
-			color: $gray;
+			color: $dark-gray;
 			padding-top: 60px;
 			padding-bottom: 30px;
 			font-family: 'Locator-Light', Helvetica, sans-serif;
@@ -41,7 +41,6 @@ $gray: #707070;
 			font-size: 30px;
 			width: 60%;
 			line-height: 46px;
-			opacity: 0.9;
 		}
 		
 }
@@ -64,7 +63,6 @@ $gray: #707070;
 	
 	p {
 		font-size: 16px;
-		opacity: 0.8;
 		font-family: 'Locator-Light', Helvetica, sans-serif;
 		color: $dark-gray;
 		font-weight: 100;
@@ -77,7 +75,7 @@ $gray: #707070;
 	}
 	ul {
 		list-style-image: url("/images/list-icon.png");
-		color: $gray;
+		color: $dark-gray;
 		font-family: 'Locator-Light', Helvetica, sans-serif;
 		width: 70%;
 		margin-top: 20px;
@@ -136,7 +134,7 @@ $gray: #707070;
 	}
 
 .features-highlight {
-	padding-top: 0px;
+	padding-top: 30px;
 	
 	img {
 		width: 70%;

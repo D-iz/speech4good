@@ -18,7 +18,6 @@ $dark-gray: #363636;
 		color: white;
 		font-weight: 100;
 		letter-spacing: 12px;
-		opacity: 0.9;
 		text-align: center;
 		font-size: 90px;
 	}
@@ -28,7 +27,7 @@ $dark-gray: #363636;
 	margin-top: 20px;
 	font-family: 'Locator-Light', Helvetica, sans-serif;
 	h3 {
-		color: #363636;
+		color: $dark-gray;
 		padding-top: 50px;
 		padding-bottom: 0px;
 		font-family: 'Locator-Light', Helvetica, sans-serif;
@@ -38,7 +37,7 @@ $dark-gray: #363636;
 		font-size: 30px;
 		width: 80%;
 		line-height: 46px;
-		opacity: 0.9;
+		
 	}
 
 }
@@ -90,7 +89,6 @@ $dark-gray: #363636;
 	
 	a {
 		text-decoration: underline;
-		color: #707070;
 	}
 	
 	h4 {
@@ -120,6 +118,7 @@ $dark-gray: #363636;
 	background-attachment: scroll;
 	width: 100%;
 	height: 340px;
+	
 	h1 {
 		display: block;
 		width: 90%;
@@ -148,7 +147,7 @@ $dark-gray: #363636;
 	font-size: 20px;
 	width: 100%;
 	line-height: 46px;
-	opacity: 0.9;}}
+}}
 
 
 	  
