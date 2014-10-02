@@ -1293,17 +1293,31 @@ footer {
   background-attachment: fixed;
   width: 100%;
   height: 760px; }
+  #isad_box h5 {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Locator-Light', Helvetica, sans-serif;
+    padding-top: 200px;
+    text-transform: uppercase;
+    width: 180px;
+    color: white;
+    border-bottom: 2px solid white; }
+    #isad_box h5 #upper-nd {
+      font-size: 14px;
+      vertical-align: super;
+      text-transform: lowercase; }
   #isad_box h1 {
     display: block;
     width: 90%;
     margin: 0 auto;
-    padding-top: 210px;
+    padding-top: 40px;
     font-family: 'Locator-Light', Helvetica, sans-serif;
     color: white;
     font-weight: 100;
     opacity: 0.9;
     text-align: center;
-    font-size: 60px; }
+    font-size: 50px; }
 
 .isad_btn-box {
   width: 230px;
