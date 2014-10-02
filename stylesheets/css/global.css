@@ -1305,6 +1305,67 @@ footer {
     text-align: center;
     font-size: 60px; }
 
+.isad_btn-box {
+  width: 230px;
+  text-align: center;
+  margin: 40 auto; }
+
+.isad_btn {
+  background-color: #7f8c8d;
+  color: white;
+  font-family: 'Locator', Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  width: 230px;
+  line-height: 84px;
+  border-radius: 6px;
+  height: 80px;
+  padding-right: 16px;
+  padding-left: 50px;
+  float: left;
+  display: inline;
+  background-image: url("/images/thumbs-up.png");
+  background-repeat: no-repeat;
+  background-size: 28px 28px;
+  background-position: 6% 44%;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out; }
+
+.isad_btn:hover {
+  background-color: #707d7e; }
+
+.tw_btn {
+  background-color: #55acee;
+  color: white;
+  font-family: 'Locator', Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  width: 230px;
+  line-height: 84px;
+  border-radius: 6px;
+  height: 80px;
+  padding-right: 16px;
+  padding-left: 40px;
+  float: left;
+  display: inline;
+  background-image: url("/images/twitter.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: 6% 44%;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out; }
+
+.tw_btn:hover {
+  background-color: #399eeb; }
+
 #isad-section {
   padding-top: 20px;
   font-family: 'Locator-Light', Helvetica, sans-serif; }
