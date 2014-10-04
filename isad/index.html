@@ -37,7 +37,7 @@
 			<h1>International Stuttering Awareness Day</h1>
 			<div id="isad-mobile-hide">
 			<p>Since 1998, the stuttering community has joined together every October 22 to raise awareness, encourage support, and share their voices.</p>
-			<div class="isad_btn-box"><a href="/"><div id="main-hollow" class="isad_btn">Show your support</div></a></div>
+			<div class="isad_btn-box"><a href="#isad-section"><div id="main-hollow" class="isad_btn">Show your support</div></a></div>
 		</div><!--end mobile-hide-->
 	</div><!-- end box -->
 		<div id="isad-section">
@@ -50,7 +50,7 @@
 	<div class="isad-timeline">
 		<div class="container">
 			<div class="sixteen columns">
-				<div class="seven columns side">
+				<div class="seven columns leftside side">
 					<div class="timeline-event" id="one">
 						<h4 class="left">April 1988</h4>
 						<h3>President Reagan proclaims the first National Stuttering Awareness Week</h3>
@@ -69,7 +69,7 @@
 					<div class="timeline-event" id="two">
 						<h4>October 1998</h4>
 						<h3>Michael Sugarman spearheads the first International Stuttering Awareness Day</h3>
-						<p>Michael Sugarman, the co-founder of the National Stuttering Project (which becomes the National Stuttering Association), leads the first International Stuttering Awareness Day.</p>
+						<p>Michael Sugarman, the co-founder of the National Stuttering Project (which later becomes the National Stuttering Association), leads the first International Stuttering Awareness Day.</p>
 					</div><!--end timeline-event -->
 					<div class="timeline-event" id="four">
 						<h4>October 2013</h4>
@@ -92,7 +92,7 @@
 							<a href="/"><div id="fb" class="tw_btn">Like on Facebook</div></a>
 						</div><!--end column -->
 						<div class="four columns offset-by-one share">
-							<a href="/"><div id="email" class="tw_btn">Email a friend</div></a>
+							<a href="/"><div id="email" class="tw_btn">Tell a friend</div></a>
 						</div><!--end column -->
 				</div><!--end share-btns sixteen-columns -->
 			</div><!--end isad-share-box -->
@@ -129,11 +129,30 @@
 		  ga('create', 'UA-46783883-1', 'speech4good.com');
 		  ga('send', 'pageview');
 	</script><!-- end Google Analytics -->
-		<!-- Mixpanel Analytics
-  ================================================== -->
-	<script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
-for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
-mixpanel.init("db6f02c54bae388eed7e2f44b00f9208");
-	</script><!-- end Mixpanel -->
+
+	<script>
+$(document).load($(window).bind("resize load", listenWidth));
+	function listenWidth() {
+		if($(window).width() < 960) {
+			$("#timeline").remove().insertBefore($(".leftside"));
+		}
+		else {
+			$("#timeline").remove().insertAfter($(".leftside"));
+		}
+	}
+	</script>
+
+	<script>
+$(document).load($(window).bind("resize load", listenWidth));
+	function listenWidth() {
+		if($(window).width() < 960) {
+			$("#two").remove().insertBefore($("#three"));
+		}
+		else {
+			$("#two").remove().insertAfter($("#three"));
+		}
+	}
+	</script>
+
 </body>
 </html>

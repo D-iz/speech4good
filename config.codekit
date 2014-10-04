@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17756",
+"creatorBuild": "17908",
 "files": {
 	"\/about\/index.html": {
 		"fileType": 8192,
@@ -161,6 +161,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/email.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7438,
+		"inputAbbreviatedPath": "\/images\/email.png",
+		"outputAbbreviatedPath": "\/images\/email.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/fb-thick.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3881,
+		"inputAbbreviatedPath": "\/images\/fb-thick.png",
+		"outputAbbreviatedPath": "\/images\/fb-thick.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/features-bg.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -227,6 +249,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/isad-bg-m.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.12944e+06,
+		"inputAbbreviatedPath": "\/images\/isad-bg-m.jpg",
+		"outputAbbreviatedPath": "\/images\/isad-bg-m.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/isad-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -234,17 +267,6 @@
 		"initialSize": 1.33883e+06,
 		"inputAbbreviatedPath": "\/images\/isad-bg.jpg",
 		"outputAbbreviatedPath": "\/images\/isad-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/isad-logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 30789,
-		"inputAbbreviatedPath": "\/images\/isad-logo.png",
-		"outputAbbreviatedPath": "\/images\/isad-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -344,6 +366,17 @@
 		"initialSize": 4173,
 		"inputAbbreviatedPath": "\/images\/thumbs-up.png",
 		"outputAbbreviatedPath": "\/images\/thumbs-up.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/timeline.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9684,
+		"inputAbbreviatedPath": "\/images\/timeline.png",
+		"outputAbbreviatedPath": "\/images\/timeline.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -1542,14 +1542,14 @@ footer {
   font-size: 25px; }
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 960px) {
   #isad_box {
-    background-image: url("/images/isad-bg.JPG");
+    background-image: url("/images/isad-bg-m.JPG");
     background-repeat: repeat-y;
     background-size: cover;
     background-attachment: scroll;
     width: 100%;
-    height: 360px; }
+    height: 370px; }
     #isad_box h5 {
       padding-top: 120px; }
     #isad_box h1 {
@@ -1570,22 +1570,82 @@ footer {
     padding-top: 20px;
     font-family: 'Locator-Light', Helvetica, sans-serif; }
     #isad-section h3 {
-      font-size: 20px;
+      font-size: 22px;
       width: 100%;
       padding-top: 20px;
       padding-bottom: 10px; }
     #isad-section h4 {
       font-size: 18px;
-      width: 100%; }
+      width: 100%;
+      font-weight: bold; }
 
   .isad-highlight {
-    padding-top: 30px; }
+    padding-top: 20px; }
     .isad-highlight img {
       width: 70%;
       margin-left: 15%;
       margin-top: 0px; }
     .isad-highlight img:last-child {
-      padding-bottom: 30px; } }
+      padding-bottom: 30px; }
+
+  .isad-timeline {
+    margin-top: 80px; }
+    .isad-timeline #timeline {
+      width: 20px;
+      margin: 0 auto;
+      float: left; }
+    .isad-timeline h4 {
+      text-transform: uppercase;
+      font-size: 13px;
+      color: #707070;
+      padding-bottom: 10px;
+      font-family: 'Locator-Bold', Helvetica, sans-serif; }
+    .isad-timeline .left h4 {
+      color: red; }
+    .isad-timeline h3 {
+      font-size: 20px;
+      line-height: 30px;
+      font-family: 'Locator', Helvetica, sans-serif;
+      color: #FBAE16;
+      font-weight: 100; }
+    .isad-timeline p {
+      font-size: 14px;
+      font-family: 'Locator-Light', Helvetica, sans-serif;
+      color: #363636;
+      font-weight: 100;
+      line-height: 30px;
+      padding-top: 10px; }
+    .isad-timeline .side {
+      padding-right: 14px;
+      padding-left: 14px;
+      float: right; }
+    .isad-timeline .timeline-event#one {
+      margin-top: 20px; }
+    .isad-timeline .timeline-event#two {
+      margin-top: 20px; }
+    .isad-timeline .timeline-event#three {
+      margin-top: 20px; }
+    .isad-timeline .timeline-event#four {
+      margin-top: 20px; }
+
+  .isad-share-box {
+    margin-top: 10px; }
+    .isad-share-box h1 {
+      font-size: 24px; }
+
+  .tw_btn {
+    width: 80%; }
+
+  .isad-about {
+    padding-top: 160px;
+    padding-bottom: 00px; }
+
+  footer {
+    height: 60px;
+    overflow: hidden; }
+
+  .thin-divider {
+    padding-top: 10px; } }
 ::selection {
   background: #fbae16;
   /* Safari */ }
