@@ -90,16 +90,16 @@ $gray: #707070;
 		padding-left: 14px;
 	}
 	.timeline-event#one {
-		margin-top: -40px;
+		margin-top: -20px;
 	}
 	.timeline-event#two {
-		margin-top: 200px;
+		margin-top: 230px;
 	}
 	.timeline-event#three {
-		margin-top: 240px;
+		margin-top: 310px;
 	}
 	.timeline-event#four {
-		margin-top: 220px;
+		margin-top: 320px;
 	}
 }
 
@@ -143,7 +143,7 @@ $gray: #707070;
 		background-repeat: no-repeat;
 	}
 	.isad_btn#main-hollow:hover {
-		opacity: 0.5;
+		opacity: 0.6;
 	}
 
 .tw_btn {
@@ -157,7 +157,7 @@ $gray: #707070;
 	letter-spacing: 1.5px;
 	width: 200px;
 	line-height: 70px;
-	border-radius: 6px;
+	border-radius: 4px;
 	height: 70px;
 	padding-right: 16px;
 	padding-left: 40px;
@@ -226,7 +226,7 @@ $gray: #707070;
 
 .isad-highlight {
 	padding-bottom: 40px;
-	padding-top: 20px;
+	padding-top: 40px;
 	overflow: hidden;
 	h1 {
 		font-size: 34px;
@@ -272,17 +272,20 @@ $gray: #707070;
 		padding-top: 50px;
 	}
 	.isad-share-box {
-		margin: 0 auto;
 		text-align: center;
 		padding-top: 0px;
 		.share-btns {
-			margin-top: 40px;
+			margin-top: 20px;
+			.share {
+				margin-top: 20px;
+			}
 		}
 	}
 	.isad-about {
 		width: 90%;
 		margin: 0 auto;
-		margin-top: 40px;
+		margin-top: 160px;
+		padding-bottom: 20px;
 	}
 }
 
