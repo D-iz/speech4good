@@ -1388,11 +1388,12 @@ footer {
   font-size: 18px;
   letter-spacing: 1.5px;
   width: 230px;
-  line-height: 74px;
+  line-height: 80px;
   border-radius: 6px;
   height: 80px;
   padding-right: 16px;
   padding-left: 16px;
+  cursor: pointer;
   display: inline-block;
   background-repeat: no-repeat;
   background-size: 28px 28px;

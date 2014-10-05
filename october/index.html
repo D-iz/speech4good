@@ -4,7 +4,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Speech4Good - Speech therapy apps</title>
+	<title>Speech4Good - Stuttering Awareness</title>
 	<meta name="description" content="Speech4Good is an iPhone and iPad app for speech therapy. It uses proven speech tools to make for instantly accessible speech therapy practice for stuttering and other speech disorders. Available on the App Store.">
 	<meta name="keywords" content="stuttering app, iphone app, ipad, fluency, mobile, application, stuttering, speech for good">
 
@@ -19,8 +19,16 @@
 	<link rel="shortcut icon" href="/images/favicon.ico">
 		<!-- JavaScript Includes
   ================================================== -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 	<script src="/scripts/script.js"></script>
+	<script>
+	$("#main-hollow").click(function() {
+    	$('html, body').animate({
+        scrollTop: $("#isad-section").offset().top
+    }, 2000);
+});
+
+	</script>
 </head>
 <body>
 	<header>
@@ -37,7 +45,7 @@
 			<h1>International Stuttering Awareness Day</h1>
 			<div id="isad-mobile-hide">
 			<p>Since 1998, the stuttering community has joined together every October 22 to raise awareness, encourage support, and share their voices.</p>
-			<div class="isad_btn-box"><a href="#isad-section"><div id="main-hollow" class="isad_btn">Show your support</div></a></div>
+			<div class="isad_btn-box"><div id="main-hollow" class="isad_btn">Show your support</div></div>
 		</div><!--end mobile-hide-->
 	</div><!-- end box -->
 		<div id="isad-section">
@@ -46,7 +54,6 @@
 				<h4>And each one of them has a voice.</h4>
 		</div><!-- end container -->
 	</div><!-- end isad-section -->
-
 	<div class="isad-timeline">
 		<div class="container">
 			<div class="sixteen columns">
