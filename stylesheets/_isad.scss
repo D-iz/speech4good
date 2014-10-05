@@ -4,7 +4,7 @@ $dark-gray: #363636;
 $gray: #707070;
 
 #isad_box {
-	background-image: url('/images/isad-bg.JPG');	
+	background-image: url('/images/isad-bg.JPG');
 	background-repeat: repeat-y;
 	background-size: cover;
 	background-attachment: fixed;
@@ -67,9 +67,6 @@ $gray: #707070;
 		padding-bottom: 10px;
 		font-family: 'Locator-Bold', Helvetica, sans-serif;
 	}
-	.left h4 {
-			color: red;
-	}
 	h3 {
 		font-size: 20px;
 		line-height: 30px;
@@ -119,7 +116,7 @@ $gray: #707070;
 	font-size: 18px;
 	letter-spacing: 1.5px;
 	width: 230px;
-	line-height: 84px;
+	line-height: 74px;
 	border-radius: 6px;
 	height: 80px;
 	padding-right: 16px;
@@ -156,7 +153,7 @@ $gray: #707070;
 	font-size: 16px;
 	letter-spacing: 1.5px;
 	width: 200px;
-	line-height: 70px;
+	line-height: 72px;
 	border-radius: 4px;
 	height: 70px;
 	padding-right: 16px;
@@ -320,8 +317,8 @@ $gray: #707070;
 		margin: 0 auto;
 		font-family: 'Locator-Light', Helvetica, sans-serif;
 		color: white;
-		font-weight: 100;
-		letter-spacing: 6px;
+		font-weight: 300;
+		letter-spacing: 3px;
 		opacity: 0.9;
 		text-align: center;
 		font-size: 32px;
@@ -349,24 +346,28 @@ $gray: #707070;
 
 .isad-highlight {
 	padding-top: 20px;
+	padding-bottom: 0px;
 	img {
 		width: 70%;
 		margin-left: 15%;
 		margin-top: 0px;
-		}	
+		}
 	img:last-child {
 		padding-bottom: 30px;
-	}	
+	}
 }
 
 // TIMELINE-MOBILE
 
 .isad-timeline {
-	margin-top: 80px;
+	margin-top: 40px;
 	#timeline {
 		width: 20px;
 		margin: 0 auto;
 		float: left;
+	}
+	.leftside {
+		margin-top: -800px;
 	}
 	h4 {
 		text-transform: uppercase;
@@ -374,9 +375,6 @@ $gray: #707070;
 		color: $gray;
 		padding-bottom: 10px;
 		font-family: 'Locator-Bold', Helvetica, sans-serif;
-	}
-	.left h4 {
-			color: red;
 	}
 	h3 {
 		font-size: 20px;
@@ -393,22 +391,22 @@ $gray: #707070;
 		line-height: 30px;
 		padding-top: 10px;
 	}
-	.side {
-		padding-right: 14px;
-		padding-left: 14px;
-		float: right;
-	}
 	.timeline-event#one {
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 	.timeline-event#two {
-		margin-top: 20px;
+		margin-top: 74px;
 	}
 	.timeline-event#three {
-		margin-top: 20px;
+		margin-top: 34px;
 	}
 	.timeline-event#four {
-		margin-top: 20px;
+		margin-top: -26px;
+	}
+	.timeline-event {
+		width: 90%;
+		float: right;
+		display: block;
 	}
 }
 .isad-share-box {
@@ -424,14 +422,13 @@ $gray: #707070;
 
 .isad-about {
 		padding-top: 160px;
-		padding-bottom: 00px;
+		padding-bottom: 0px;
 	}
 
 footer {
 	height: 60px;
 	overflow: hidden;
 }
-
 .thin-divider {
 	padding-top: 10px;
 }
