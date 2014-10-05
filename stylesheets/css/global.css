@@ -1331,7 +1331,15 @@ footer {
     line-height: 30px; }
 
 .isad-timeline {
-  margin-top: 100px; }
+  margin-top: 20px;
+  padding-top: 80px;
+  background-color: #fff; }
+  .isad-timeline .timeline-event {
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 3px;
+    border: 1px solid #DEDEDE;
+    box-shadow: 1px 1px 1px 1px rgba(200, 200, 200, 0.3); }
   .isad-timeline #timeline {
     width: 40px;
     margin: 0 auto; }
@@ -1362,9 +1370,9 @@ footer {
   .isad-timeline .timeline-event#two {
     margin-top: 230px; }
   .isad-timeline .timeline-event#three {
-    margin-top: 310px; }
+    margin-top: 290px; }
   .isad-timeline .timeline-event#four {
-    margin-top: 320px; }
+    margin-top: 270px; }
 
 .isad_btn-box {
   width: 230px;
@@ -1525,7 +1533,8 @@ footer {
     .isad-highlight .isad-share-box .share-btns {
       margin-top: 20px; }
       .isad-highlight .isad-share-box .share-btns .share {
-        margin-top: 20px; }
+        margin-top: 20px;
+        margin-left: 30px; }
   .isad-highlight .isad-about {
     width: 90%;
     margin: 0 auto;
@@ -1573,7 +1582,7 @@ footer {
     .isad-timeline .timeline-event#two {
       margin-top: 76px; }
     .isad-timeline .timeline-event#three {
-      margin-top: 70px; }
+      margin-top: 62px; }
     .isad-timeline .timeline-event#four {
       margin-top: 50px; }
     .isad-timeline .timeline-event {
@@ -1581,6 +1590,8 @@ footer {
       margin-left: 30px;
       float: left;
       display: block; }
+    .isad-timeline .share {
+      margin-left: 10px; }
     .isad-timeline .tw_btn {
       width: 100%;
       font-size: 12px; } }
@@ -1678,12 +1689,19 @@ footer {
     .isad-share-box h1 {
       font-size: 24px; }
 
+  .share {
+    margin: 0px; }
+
   .tw_btn {
     width: 80%; }
 
   .isad-about {
     padding-top: 160px;
     padding-bottom: 0px; }
+
+  footer {
+    height: 60px;
+    overflow: hidden; }
 
   .thin-divider {
     padding-top: 10px; } }
