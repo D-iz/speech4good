@@ -295,14 +295,78 @@ $gray: #707070;
 	font-size: 25px;
 }
 
+/* All Mobile Sizes (devices and browser) */
+  @media only screen and (min-width: 768px) and (max-width: 960px) {
+
+// TIMELINE-MID-MOBILE
+
+.isad-timeline {
+	margin-top: 40px;
+	#timeline {
+		margin: 0 auto;
+		width: 20px;
+		float: left;
+	}
+	.rightside {
+		border: 1px solid white;
+	}
+	.leftside {
+		margin-top: 00px;
+	}
+	h4 {
+		text-transform: uppercase;
+		font-size: 13px;
+		color: $gray;
+		padding-bottom: 10px;
+		font-family: 'Locator-Bold', Helvetica, sans-serif;
+	}
+	h3 {
+		font-size: 20px;
+		font-family: 'Locator', Helvetica, sans-serif;
+		color: $orange;
+		font-weight: 100;
+	}
+	p {
+		font-size: 14px;
+		font-family: 'Locator-Light', Helvetica, sans-serif;
+		color: $dark-gray;
+		font-weight: 100;
+		padding-top: 4px;
+	}
+	.timeline-event#one {
+		margin-top: 6px;
+	}
+	.timeline-event#two {
+		margin-top: 76px;
+	}
+	.timeline-event#three {
+		margin-top: 70px;
+	}
+	.timeline-event#four {
+		margin-top: 50px;
+	}
+	.timeline-event {
+		width: 440px;
+		margin-left: 30px;
+		float: left;
+		display: block;
+	}
+.share-btns {
+
+	}
+.tw_btn {
+	width: 100%;
+	font-size: 12px;
+	}
+}
+}
 
 
 /* All Mobile Sizes (devices and browser) */
-  @media only screen and (max-width: 960px) {
-
+  @media only screen and (max-width: 768px) {
 
 #isad_box {
-	background-image: url('/images/isad-bg-m.JPG');	
+	background-image: url('/images/isad-bg-m.JPG');
 	background-repeat: repeat-y;
 	background-size: cover;
 	background-attachment: scroll;
@@ -362,8 +426,8 @@ $gray: #707070;
 .isad-timeline {
 	margin-top: 40px;
 	#timeline {
-		width: 20px;
 		margin: 0 auto;
+		width: 20px;
 		float: left;
 	}
 	.leftside {
@@ -378,7 +442,7 @@ $gray: #707070;
 	}
 	h3 {
 		font-size: 20px;
-		line-height: 30px;
+		line-height: 26px;
 		font-family: 'Locator', Helvetica, sans-serif;
 		color: $orange;
 		font-weight: 100;
@@ -388,34 +452,34 @@ $gray: #707070;
 		font-family: 'Locator-Light', Helvetica, sans-serif;
 		color: $dark-gray;
 		font-weight: 100;
-		line-height: 30px;
-		padding-top: 10px;
+		line-height: 22px;
+		padding-top: 4px;
 	}
 	.timeline-event#one {
 		margin-top: 0px;
 	}
 	.timeline-event#two {
-		margin-top: 74px;
+		margin-top: 40px;
 	}
 	.timeline-event#three {
-		margin-top: 34px;
+		margin-top: 16px;
 	}
 	.timeline-event#four {
 		margin-top: -26px;
 	}
 	.timeline-event {
-		width: 90%;
-		float: right;
+		width: 250px;
+		margin-left: 30px;
+		float: left;
 		display: block;
 	}
 }
 .isad-share-box {
-	margin-top: 10px;
+	margin-top: 0px;
 	h1 {
 		font-size: 24px;
 	}
 }
-
 .tw_btn {
 	width: 80%;
 }
@@ -424,13 +488,11 @@ $gray: #707070;
 		padding-top: 160px;
 		padding-bottom: 0px;
 	}
-
-footer {
-	height: 60px;
-	overflow: hidden;
-}
+// footer {
+// 	height: 60px;
+// 	overflow: hidden;
+// }
 .thin-divider {
 	padding-top: 10px;
 }
-
 } //end mobile style

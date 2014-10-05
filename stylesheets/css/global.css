@@ -1540,7 +1540,52 @@ footer {
   font-size: 25px; }
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+  .isad-timeline {
+    margin-top: 40px; }
+    .isad-timeline #timeline {
+      margin: 0 auto;
+      width: 20px;
+      float: left; }
+    .isad-timeline .rightside {
+      border: 1px solid white; }
+    .isad-timeline .leftside {
+      margin-top: 00px; }
+    .isad-timeline h4 {
+      text-transform: uppercase;
+      font-size: 13px;
+      color: #707070;
+      padding-bottom: 10px;
+      font-family: 'Locator-Bold', Helvetica, sans-serif; }
+    .isad-timeline h3 {
+      font-size: 20px;
+      font-family: 'Locator', Helvetica, sans-serif;
+      color: #FBAE16;
+      font-weight: 100; }
+    .isad-timeline p {
+      font-size: 14px;
+      font-family: 'Locator-Light', Helvetica, sans-serif;
+      color: #363636;
+      font-weight: 100;
+      padding-top: 4px; }
+    .isad-timeline .timeline-event#one {
+      margin-top: 6px; }
+    .isad-timeline .timeline-event#two {
+      margin-top: 76px; }
+    .isad-timeline .timeline-event#three {
+      margin-top: 70px; }
+    .isad-timeline .timeline-event#four {
+      margin-top: 50px; }
+    .isad-timeline .timeline-event {
+      width: 440px;
+      margin-left: 30px;
+      float: left;
+      display: block; }
+    .isad-timeline .tw_btn {
+      width: 100%;
+      font-size: 12px; } }
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 768px) {
   #isad_box {
     background-image: url("/images/isad-bg-m.JPG");
     background-repeat: repeat-y;
@@ -1590,8 +1635,8 @@ footer {
   .isad-timeline {
     margin-top: 40px; }
     .isad-timeline #timeline {
-      width: 20px;
       margin: 0 auto;
+      width: 20px;
       float: left; }
     .isad-timeline .leftside {
       margin-top: -800px; }
@@ -1603,7 +1648,7 @@ footer {
       font-family: 'Locator-Bold', Helvetica, sans-serif; }
     .isad-timeline h3 {
       font-size: 20px;
-      line-height: 30px;
+      line-height: 26px;
       font-family: 'Locator', Helvetica, sans-serif;
       color: #FBAE16;
       font-weight: 100; }
@@ -1612,23 +1657,24 @@ footer {
       font-family: 'Locator-Light', Helvetica, sans-serif;
       color: #363636;
       font-weight: 100;
-      line-height: 30px;
-      padding-top: 10px; }
+      line-height: 22px;
+      padding-top: 4px; }
     .isad-timeline .timeline-event#one {
       margin-top: 0px; }
     .isad-timeline .timeline-event#two {
-      margin-top: 74px; }
+      margin-top: 40px; }
     .isad-timeline .timeline-event#three {
-      margin-top: 34px; }
+      margin-top: 16px; }
     .isad-timeline .timeline-event#four {
       margin-top: -26px; }
     .isad-timeline .timeline-event {
-      width: 90%;
-      float: right;
+      width: 250px;
+      margin-left: 30px;
+      float: left;
       display: block; }
 
   .isad-share-box {
-    margin-top: 10px; }
+    margin-top: 0px; }
     .isad-share-box h1 {
       font-size: 24px; }
 
@@ -1638,10 +1684,6 @@ footer {
   .isad-about {
     padding-top: 160px;
     padding-bottom: 0px; }
-
-  footer {
-    height: 60px;
-    overflow: hidden; }
 
   .thin-divider {
     padding-top: 10px; } }
