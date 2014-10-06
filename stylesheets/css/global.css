@@ -1287,7 +1287,7 @@ footer {
   animation-name: fadeInRight; }
 
 #isad_box {
-  background-image: url("/images/isad-bg.JPG");
+  background-image: url("/images/isad-bg.jpg");
   background-repeat: repeat-y;
   background-size: cover;
   background-attachment: fixed;
