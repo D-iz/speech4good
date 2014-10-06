@@ -67,8 +67,8 @@ a {
 	transition: all .1s ease-in-out;}	
 
 .download_btn:hover {
-	background-color: #ffb219;}
-	
+	background-color: darken($orange, 6%);
+}
 
 /* --- Top Section --- */
 
