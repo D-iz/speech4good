@@ -1286,6 +1286,9 @@ footer {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight; }
 
+#timeline-m {
+  display: none; }
+
 #isad_box {
   background-image: url("/images/isad-bg.jpg");
   background-repeat: repeat-y;
@@ -1300,7 +1303,7 @@ footer {
     font-family: 'Locator-Light', Helvetica, sans-serif;
     padding-top: 230px;
     text-transform: uppercase;
-    width: 180px;
+    width: 170px;
     color: white;
     padding-bottom: 4px;
     border-bottom: 2px solid white; }
@@ -1606,6 +1609,12 @@ footer {
         display: none; } }
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 768px) {
+  #timeline-full {
+    display: none; }
+
+  #timeline-m {
+    display: block; }
+
   #isad_box {
     background-image: url("/images/isad-bg-m.jpg");
     background-repeat: repeat-y;
@@ -1652,7 +1661,8 @@ footer {
         margin-top: 20px; }
 
   .isad-timeline {
-    margin-top: 60px; }
+    margin-top: 0px;
+    padding-top: 80px; }
     .isad-timeline #timeline {
       margin: 0 auto;
       width: 20px;
@@ -1678,33 +1688,38 @@ footer {
       font-weight: 100;
       line-height: 22px;
       padding-top: 4px; }
+    .isad-timeline .side {
+      padding: 0px; }
     .isad-timeline .timeline-event#one {
-      margin-top: -90px; }
+      margin-top: -200px; }
     .isad-timeline .timeline-event#two {
       margin-top: 20px; }
     .isad-timeline .timeline-event#three {
       margin-top: 20px; }
     .isad-timeline .timeline-event#four {
-      margin-top: -30px; }
+      margin-top: -50px; }
     .isad-timeline .timeline-event {
-      width: 250px;
-      margin-left: 30px;
+      width: 220px;
+      margin-left: 36px;
       float: left;
       display: block; }
 
-  .isad-highlight .isad-share-box {
-    margin-top: 0px; }
-  .isad-highlight h1 {
-    font-size: 24px; }
-  .isad-highlight .share-btns {
-    margin: 0px; }
-  .isad-highlight .share {
-    margin: 0px; }
-  .isad-highlight .tw_btn {
-    width: 80%; }
+  .isad-highlight {
+    padding-top: 0px;
+    padding-bottom: 0px; }
+    .isad-highlight .isad-share-box {
+      margin-top: 0px; }
+    .isad-highlight h1 {
+      font-size: 24px; }
+    .isad-highlight .share-btns {
+      margin: 0px; }
+    .isad-highlight .share {
+      margin: 0px; }
+    .isad-highlight .tw_btn {
+      width: 80%; }
 
   .isad-about {
-    padding-top: 160px;
+    padding-top: 140px;
     padding-bottom: 0px; }
 
   footer {
