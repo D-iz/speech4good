@@ -1607,7 +1607,7 @@ footer {
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 768px) {
   #isad_box {
-    background-image: url("/images/isad-bg-m.JPG");
+    background-image: url("/images/isad-bg-m.jpg");
     background-repeat: repeat-y;
     background-size: cover;
     background-attachment: scroll;
