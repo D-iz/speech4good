@@ -16,7 +16,7 @@ a {
 	position: relative;
 	float: left;
 	width: 54%;	
-	margin-top: 250px;
+	margin-top: 230px;
 	margin-left: 18px;
 	h1 {
 		color: white;
@@ -34,6 +34,35 @@ a {
 		margin-bottom: 40px;
 		margin-top: 20px;
 		line-height: 36px;
+	}
+}
+
+//SMS download
+
+#sms-mobile-hide {
+	padding-top: 30px;
+	h3 {
+		font-family: 'Locator-Bold', Helvetica, sans-serif;
+		text-transform: uppercase;
+		color: white;
+		display: block;
+		text-align: center;
+	}
+	.link-box {
+		border: 1px solid red;
+		margin: 30px 20px;
+	}
+	input {
+		height: 50px;
+		width: 220px;
+		border-radius-right: 0px;
+	}
+	button {
+		height: 50px;
+		margin-left: -16px;
+		width: 72px;
+		border-radius-left: 0px;
+		font-family: 'Locator', Helvetica, sans-serif;
 	}
 }
 
@@ -292,7 +321,12 @@ a {
 	
 /* All Mobile Sizes (devices and browser) */
   @media only screen and (max-width: 900px) {
-	  
+
+
+#sms-mobile-hide {
+	display: none;
+}
+
 #main_box { 
 	background-image: url("/images/bg-mobi.jpg");
 	background-size: cover;

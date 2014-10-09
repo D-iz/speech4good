@@ -431,7 +431,7 @@ a {
   position: relative;
   float: left;
   width: 54%;
-  margin-top: 250px;
+  margin-top: 230px;
   margin-left: 18px; }
   #main_text_container h1 {
     color: white;
@@ -447,6 +447,28 @@ a {
     margin-bottom: 40px;
     margin-top: 20px;
     line-height: 36px; }
+
+#sms-mobile-hide {
+  padding-top: 30px; }
+  #sms-mobile-hide h3 {
+    font-family: 'Locator-Bold', Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    text-align: center; }
+  #sms-mobile-hide .link-box {
+    border: 1px solid red;
+    margin: 30px 20px; }
+  #sms-mobile-hide input {
+    height: 50px;
+    width: 220px;
+    border-radius-right: 0px; }
+  #sms-mobile-hide button {
+    height: 50px;
+    margin-left: -16px;
+    width: 72px;
+    border-radius-left: 0px;
+    font-family: 'Locator', Helvetica, sans-serif; }
 
 .download_btn {
   background-color: #FBAE16;
@@ -637,6 +659,9 @@ a {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 900px) {
+  #sms-mobile-hide {
+    display: none; }
+
   #main_box {
     background-image: url("/images/bg-mobi.jpg");
     background-size: cover;
@@ -1555,6 +1580,9 @@ footer {
 
 #isad-cta {
   font-size: 25px; }
+
+footer.isad {
+  height: 60px; }
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (min-width: 768px) and (max-width: 960px) {
