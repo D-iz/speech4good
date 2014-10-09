@@ -818,7 +818,7 @@ a {
       width: 100%;
       line-height: 46px; } }
 #features_box {
-  background-image: url("/images/features-bg.jpg");
+  background-image: url("/images/features-bg.JPG");
   background-repeat: repeat-y;
   background-size: cover;
   background-attachment: fixed;
