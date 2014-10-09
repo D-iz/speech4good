@@ -29,6 +29,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/about-bg-m.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131581,
+		"inputAbbreviatedPath": "\/images\/about-bg-m.jpg",
+		"outputAbbreviatedPath": "\/images\/about-bg-m.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/about-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -183,13 +194,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/features-bg.JPG": {
+	"\/images\/features-bg-m.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155060,
+		"inputAbbreviatedPath": "\/images\/features-bg-m.jpg",
+		"outputAbbreviatedPath": "\/images\/features-bg-m.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/features-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/features-bg.JPG",
-		"outputAbbreviatedPath": "\/images\/features-bg.JPG",
+		"inputAbbreviatedPath": "\/images\/features-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/features-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -260,6 +282,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/isad-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.33883e+06,
+		"inputAbbreviatedPath": "\/images\/isad-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/isad-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/list-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -304,6 +337,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/play-mini.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4002,
+		"inputAbbreviatedPath": "\/images\/play-mini.png",
+		"outputAbbreviatedPath": "\/images\/play-mini.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/play-sprite.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -333,6 +377,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/images\/quote-sprite.png",
 		"outputAbbreviatedPath": "\/images\/quote-sprite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/share-img.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 135817,
+		"inputAbbreviatedPath": "\/images\/share-img.png",
+		"outputAbbreviatedPath": "\/images\/share-img.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -450,6 +505,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scripts\/min\/script-ck.js",
 		"outputAbbreviatedPath": "\/scripts\/min\/min\/script-ck-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/scripts\/min\/script-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scripts\/min\/script-min.js",
+		"outputAbbreviatedPath": "\/scripts\/min\/min\/script-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
