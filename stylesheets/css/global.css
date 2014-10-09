@@ -1378,7 +1378,6 @@ footer {
     margin-top: 270px; }
 
 .isad_btn-box {
-  width: 230px;
   text-align: center;
   margin: 40 auto; }
 
@@ -1412,8 +1411,12 @@ footer {
 .isad_btn#main-hollow {
   background: transparent;
   border: 2px solid white;
-  background-image: none;
-  background-repeat: no-repeat; }
+  border-radius: 40px;
+  padding-right: 26px;
+  padding-left: 18px;
+  background-image: url("/images/play-mini.png");
+  background-repeat: no-repeat;
+  background-position: 90% 45%; }
 
 .isad_btn#main-hollow:hover {
   opacity: 0.6; }
@@ -1621,9 +1624,9 @@ footer {
     background-size: cover;
     background-attachment: scroll;
     width: 100%;
-    height: 370px; }
+    height: 470px; }
     #isad_box h5 {
-      padding-top: 120px; }
+      padding-top: 100px; }
     #isad_box h1 {
       display: block;
       width: 90%;

@@ -21,14 +21,6 @@
   ================================================== -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 	<script src="/scripts/script.js"></script>
-	<script>
-	$("#main-hollow").click(function() {
-    	$('html, body').animate({
-        scrollTop: $("#isad-section").offset().top
-    }, 2000);
-});
-
-	</script>
 </head>
 <body>
 	<header>
@@ -41,12 +33,19 @@
 		</div><!--end header_container-->
 	</header><!--end header-->
 	<div id="isad_box">
+		<div id="isad-main-content">
 			<h5>October 22<span id="upper-nd">nd</span></h5>
 			<h1>International Stuttering Awareness Day</h1>
 			<div id="isad-mobile-hide">
-			<p>Since 1998, the stuttering community has joined together every October 22 to raise awareness, encourage support, and share their voices.</p>
-			<div class="isad_btn-box"><div id="main-hollow" class="isad_btn">Show your support</div></div>
-		</div><!--end mobile-hide-->
+				<p>Since 1998, the stuttering community has joined together every October 22 to raise awareness, encourage support, and share their voices.</p>
+			</div><!--end mobile-hide-->	
+			<div class="isad_btn-box">
+				<a href="//fast.wistia.net/embed/iframe/yso71noeuh?popover=true" class="wistia-popover[height=478,playerColor=fbae16#FBAE16,width=800]">
+					<div id="main-hollow" class="isad_btn">Watch the Video</div>
+				</a>
+				<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+			</div>
+		</div><!--end isad-main-content-->
 	</div><!-- end box -->
 		<div id="isad-section">
 			<div class="container">
