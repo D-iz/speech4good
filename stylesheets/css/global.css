@@ -431,7 +431,7 @@ a {
   position: relative;
   float: left;
   width: 54%;
-  margin-top: 230px;
+  margin-top: 200px;
   margin-left: 18px; }
   #main_text_container h1 {
     color: white;
@@ -444,21 +444,22 @@ a {
     font-family: 'Locator-Light', Helvetica, sans-serif;
     font-size: 18px;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 20px;
     line-height: 36px; }
 
 #sms-mobile-hide {
-  padding-top: 30px; }
-  #sms-mobile-hide h3 {
+  padding-top: 34px; }
+  #sms-mobile-hide h3#or {
     font-family: 'Locator-Bold', Helvetica, sans-serif;
     text-transform: uppercase;
     color: white;
     display: block;
-    text-align: center; }
+    text-align: center;
+    margin-top: 50px;
+    width: 320px; }
   #sms-mobile-hide .link-box {
-    border: 1px solid red;
-    margin: 30px 20px; }
+    margin: -24px 20px; }
   #sms-mobile-hide input {
     height: 50px;
     width: 220px;
