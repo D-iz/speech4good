@@ -1449,7 +1449,8 @@ footer {
   opacity: 0.6; }
 
 .isad.download_btn {
-  width: 280px; }
+  width: 280px;
+  display: block; }
 
 .tw_btn {
   margin: 0px;
