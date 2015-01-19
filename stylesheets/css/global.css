@@ -1396,17 +1396,18 @@ footer {
     padding-right: 14px;
     padding-left: 14px; }
   .isad-timeline .timeline-event#one {
-    margin-top: -20px; }
+    margin-top: -30px; }
   .isad-timeline .timeline-event#two {
-    margin-top: 230px; }
+    margin-top: 210px; }
   .isad-timeline .timeline-event#three {
-    margin-top: 290px; }
+    margin-top: 170px; }
   .isad-timeline .timeline-event#four {
-    margin-top: 270px; }
+    margin-top: 160px; }
 
 .isad_btn-box {
   text-align: center;
-  margin: 40 auto; }
+  margin: 30 auto;
+  padding-top: 10px; }
 
 .isad_btn {
   background-color: #7f8c8d;
@@ -1447,10 +1448,6 @@ footer {
 
 .isad_btn#main-hollow:hover {
   opacity: 0.6; }
-
-.isad.download_btn {
-  width: 280px;
-  display: block; }
 
 .tw_btn {
   margin: 0px;
@@ -1526,8 +1523,8 @@ footer {
     line-height: 46px; }
 
 .isad-highlight {
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   overflow: hidden; }
   .isad-highlight h1 {
     font-size: 34px;
@@ -1591,14 +1588,18 @@ footer {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (min-width: 768px) and (max-width: 960px) {
+  #timeline-full {
+    display: none; }
+
+  #timeline-m {
+    display: block; }
+
   .isad-timeline {
     margin-top: 0px; }
     .isad-timeline #timeline {
       margin: 0 auto;
       width: 20px;
       float: left; }
-    .isad-timeline .rightside {
-      border: 1px solid white; }
     .isad-timeline .leftside {
       margin-top: 00px; }
     .isad-timeline h4 {
@@ -1619,13 +1620,13 @@ footer {
       font-weight: 100;
       padding-top: 4px; }
     .isad-timeline .timeline-event#one {
-      margin-top: -30px; }
+      margin-top: 0px; }
     .isad-timeline .timeline-event#two {
-      margin-top: 42px; }
+      margin-top: 50px; }
     .isad-timeline .timeline-event#three {
-      margin-top: 42px; }
+      margin-top: 50px; }
     .isad-timeline .timeline-event#four {
-      margin-top: 42px; }
+      margin-top: 50px; }
     .isad-timeline .timeline-event {
       width: 440px;
       margin-left: 30px;
@@ -1684,7 +1685,7 @@ footer {
       padding-top: 20px;
       padding-bottom: 10px; }
     #isad-section h4 {
-      font-size: 18px;
+      font-size: 16px;
       width: 100%;
       font-weight: bold; }
 
@@ -1728,13 +1729,13 @@ footer {
     .isad-timeline .side {
       padding: 0px; }
     .isad-timeline .timeline-event#one {
-      margin-top: -200px; }
+      margin-top: -500px; }
     .isad-timeline .timeline-event#two {
-      margin-top: 20px; }
+      margin-top: -120px; }
     .isad-timeline .timeline-event#three {
       margin-top: 20px; }
     .isad-timeline .timeline-event#four {
-      margin-top: -50px; }
+      margin-top: 20px; }
     .isad-timeline .timeline-event {
       width: 220px;
       margin-left: 36px;
@@ -1756,7 +1757,7 @@ footer {
       width: 80%; }
 
   .isad-about {
-    padding-top: 140px;
+    padding-top: 40px;
     padding-bottom: 0px; }
 
   footer.isad {

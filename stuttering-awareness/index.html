@@ -72,7 +72,7 @@
 				</div><!--end left-side -->
 				<div class="two columns" id="timeline">
 					<img id="timeline-full" src="/images/timeline.png">
-					<img id="timeline-m" src="/images/timeline-m.png">
+					<img id="timeline-m" src="/images/timeline-m2.png">
 				</div><!--end middle timeline -->
 				<div class="seven columns rightside side">
 					<div class="timeline-event" id="two">
@@ -110,22 +110,26 @@
 		</div><!-- end container -->
 	</div><!-- end isad-highlight -->
 <!--DIVIDER -->
-	<div class="thin-divider isad"></div>
+	<div class="thin-divider"></div>
 <!--DOWNLOAD -->
 	<div class="download-box">
 		<div class="container">
-			<h2 id="isad-cta">Download Speech4Good for free on the App Store</h2><a href="http://appstore.com/speech4good"><div class="isad download_btn">Free Download</div></a>
+			<h2>Download Speech4Good on the App Store</h2>
+			<a href="http://appstore.com/speech4good"><div class="download_btn">Download</div></a>
 		</div><!-- end container -->
 	</div><!-- end download-box -->
-</div>
 <!--FOOTER -->
-	<footer class="isad">
+	<footer>
 		<div class="container">
 				<ul class="footer_list">
-					<li><strong>Speech4Good</strong> proudly supports ISAD 2014</li>
+					<li><a href="/features">Features</a></li>
+					<li><a href="/about">About</a></li>
+					<a id="footer-icon" style="opacity: 1.0;" href="/"><img src="images/icon.png"></a>
+					<li><a href="http://appstore.com/speech4good">App Store</a></li>
+					<li><a href="/about#contact">Contact Us</a></li>
 				</ul><!--end footer_list-->
 		</div><!-- end container -->
-	</footer><!--end footer-->
+</footer><!--end footer-->
 	<!-- Google Analytics
   ================================================== -->
 	<script>
@@ -158,6 +162,14 @@ $(document).load($(window).bind("resize load", listenWidth));
 	}
 	</script>
 
+	<script>
+$(document).load($(window).bind("resize load", listenWidth));
+	function listenWidth() {
+		if($(window).width() < 960) {
+			$("#four").remove().insertAfter($("#three"));
+		}
+	}
+	</script>
 
 </body>
 </html>

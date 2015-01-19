@@ -99,22 +99,23 @@ $gray: #707070;
 	}
 //FULL WIDTH
 	.timeline-event#one {
-		margin-top: -20px;
+		margin-top: -30px;
 	}
 	.timeline-event#two {
-		margin-top: 230px;
+		margin-top: 210px;
 	}
 	.timeline-event#three {
-		margin-top: 290px;
+		margin-top: 170px;
 	}
 	.timeline-event#four {
-		margin-top: 270px;
+		margin-top: 160px;
 	}
 }
 //BUTTONS
 .isad_btn-box {
 	text-align: center;
-	margin: 40 auto;
+	margin: 30 auto;
+	padding-top: 10px;
 }
 .isad_btn {
 	background-color: #7f8c8d;
@@ -157,10 +158,7 @@ $gray: #707070;
 		opacity: 0.6;
 	}
 
-.isad.download_btn {
-	width: 280px;
-	display: block;
-}
+
 
 .tw_btn {
 	margin: 0px;
@@ -239,8 +237,8 @@ $gray: #707070;
 }
 
 .isad-highlight {
-	padding-bottom: 40px;
-	padding-top: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 	overflow: hidden;
 	h1 {
 		font-size: 34px;
@@ -322,15 +320,20 @@ $gray: #707070;
 
 // TIMELINE-MID-MOBILE
 
+
+#timeline-full {
+	display: none;
+}
+#timeline-m {
+	display: block;
+}
+
 .isad-timeline {
 	margin-top: 0px;
 	#timeline {
 		margin: 0 auto;
 		width: 20px;
 		float: left;
-	}
-	.rightside {
-		border: 1px solid white;
 	}
 	.leftside {
 		margin-top: 00px;
@@ -356,17 +359,18 @@ $gray: #707070;
 		padding-top: 4px;
 	}
 //MEDIUM WIDTH
+
 	.timeline-event#one {
-		margin-top: -30px;
+		margin-top: 0px;
 	}
 	.timeline-event#two {
-		margin-top: 42px;
+		margin-top: 50px;
 	}
 	.timeline-event#three {
-		margin-top: 42px;
+		margin-top: 50px;
 	}
 	.timeline-event#four {
-		margin-top: 42px;
+		margin-top: 50px;
 	}
 	.timeline-event {
 		width: 440px;
@@ -374,6 +378,7 @@ $gray: #707070;
 		float: left;
 		display: block;
 	}
+
 .tw_btn {
 	width: 100%;
 	font-size: 12px;
@@ -445,7 +450,7 @@ $gray: #707070;
 		padding-bottom: 10px;
 		}
 		h4 {
-		font-size: 18px;
+		font-size: 16px;
 		width: 100%;
 		font-weight: bold;
 		}
@@ -505,16 +510,16 @@ $gray: #707070;
 	}
 //MOBILE WIDTH
 	.timeline-event#one {
-		margin-top: -200px;
+		margin-top: -500px;
 	}
 	.timeline-event#two {
-		margin-top: 20px;
+		margin-top: -120px;
 	}
 	.timeline-event#three {
 		margin-top: 20px;
 	}
 	.timeline-event#four {
-		margin-top: -50px;
+		margin-top: 20px;
 	}
 	.timeline-event {
 		width: 220px;
@@ -544,7 +549,7 @@ $gray: #707070;
 }
 
 .isad-about {
-		padding-top: 140px;
+		padding-top: 40px;
 		padding-bottom: 0px;
 	}
 footer.isad {
