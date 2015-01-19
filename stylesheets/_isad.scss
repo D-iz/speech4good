@@ -97,6 +97,9 @@ $gray: #707070;
 		padding-right: 14px;
 		padding-left: 14px;
 	}
+	.wide-col {
+		margin-left: 10%;
+	}
 //FULL WIDTH
 	.timeline-event#one {
 		margin-top: -30px;
@@ -299,7 +302,7 @@ $gray: #707070;
 		}
 	}
 	.isad-about {
-		width: 90%;
+		width: 80%;
 		margin: 0 auto;
 		margin-top: 160px;
 		padding-bottom: 20px;
@@ -357,6 +360,9 @@ $gray: #707070;
 		color: $dark-gray;
 		font-weight: 100;
 		padding-top: 4px;
+	}
+	.wide-col {
+		margin-left: 0%;
 	}
 //MEDIUM WIDTH
 
@@ -507,6 +513,9 @@ $gray: #707070;
 	}
 	.side {
 		padding: 0px;
+	}
+	.wide-col {
+		margin-left: 0%;
 	}
 //MOBILE WIDTH
 	.timeline-event#one {
